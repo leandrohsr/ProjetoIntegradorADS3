@@ -1,10 +1,6 @@
-@charset "UTF-8";
-body {
-    background-color: blue;
-}
-
 footer {
     margin: 20% 30% 2% 35%;
+    
 }
 
 .titulo {
@@ -27,3 +23,38 @@ footer {
 #sistema {
     margin-right: 5%;
 }
+
+body {
+    background-image: linear-gradient(dodgerblue, white);
+    margin-bottom: 25%;
+}
+
+#aplicacao {
+    background-color: rgb(88, 178, 238);
+}
+
+.id {
+    width: 6%;
+    text-align: center;
+}
+
+.nome {
+    text-align: center;
+    width: 20%;
+}
+
+.marca {
+    text-align: center;
+    width: 15%;
+}
+
+.sistema {
+    text-align: center;
+    width: 20%;
+}
+
+.aplic {
+    text-align: center;
+    width: 30%;
+}
+

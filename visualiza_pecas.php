@@ -31,7 +31,7 @@
                         echo '<td>'.$dado[2].'</td>';
                         echo '<td>'.$dado[3].'</td>';
                         echo '<td>'.$dado[4].'</td>';
-                        echo '<td><a href="update.php?id='.$dado[0].'"><input type="button" value="Alterar Dados"></a></td>';
+                        echo '<td><a href="update.php?id='.$dado[0].'"><input id="botao" type="button" value="Alterar Dados"></a></td>';
                         echo '</tr>';
                 }
             ?>
