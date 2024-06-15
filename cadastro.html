@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Cadastro de peças</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div>
+        <h1 class = "titulo">Cadastro de peças</h1>
+        <p>Complete os campos para cadastrar as peças.</p>
+    </div>
+    <div>
+        <form method="POST" action="cadastra_pecas.php" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Dados da peça:</legend>
+                <label for="nome" cols="50">Nome da peça:</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="marca">Marca</label>
+                <input type="text" name="marca" id="marca">
+                <label for="sistema">Sistema</label>
+                <select name="sistema" id="sistema" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Suspensão</option>
+                  <option>Freios</option>
+                  <option>Injeção Eletrônica</option>
+                  <option>Transmissão</option>
+                  <option>Motor</option>
+                  <option>Acessórios</option>
+                </select>
+            </fieldset><br>
+            <fieldset>
+                <label for="aplicacao" class="descricao">Descreva as aplicações da peça:</label>
+                <textarea name="aplicacao" id="aplicacao" cols="100" rows="10"></textarea>
+            </fieldset><br>
+            <div>
+                <button class="concluir" type="submit" onsubmit="">Concluir</button>
+                <a href="index.html"><input type="button" value="Voltar"></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

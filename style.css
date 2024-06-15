@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+    background-color: blue;
+}
+
+footer {
+    margin: 20% 30% 2% 35%;
+}
+
+.titulo {
+    margin: 5% 30% 5% 32%
+}
+
+.botao {
+    margin-left: 43%;
+    margin-top: 10%;
+}
+
+#nome {
+    margin-right: 5%;
+}
+
+#marca {
+    margin-right: 5%;
+}
+
+#sistema {
+    margin-right: 5%;
+}
